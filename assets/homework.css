@@ -1,0 +1,136 @@
+@font-face {
+   src: url(./font/magic-font.ttf); 
+   font-family: MAGIC;
+}
+
+#body {
+    background-color: blueviolet;
+}
+
+.flex-container {
+    display: flex;
+    background-color: black;
+    height: 150px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: MAGIC;
+    font-size: 10pt;
+    color: white;
+}
+
+.dark {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 0;
+}
+.img {
+    display: inline-block;
+    width: 100px;
+    height: 147px;
+}
+.gradient {
+    display: inline-block;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.75));
+    width: 100px;
+    height: 147px;
+    opacity: 0;
+}
+img:hover, .gradient:hover { opacity: .5; }
+
+a {
+color: white;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+#logo {
+margin: 20px; 
+width: 30px;
+height: 30px;
+}
+
+#flex-element {
+    width: 200px;
+    margin: 20px;
+    font-size: 14px;
+    
+}
+
+#buy {
+    padding: 8px;
+    background-color: blueviolet;
+    
+    color: white;
+}
+
+#buy:hover {
+    color: black;
+}
+
+.name {
+display: flex; 
+}
+
+.flex-el {
+    margin-right: 20px;
+}
+
+.main {
+    background-color: blueviolet;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: MAGIC;
+    font-size: 15pt;
+ 
+}
+img {
+width: 200px;
+}
+
+.gallery-container {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+margin: 10px;
+}
+
+.flex-container {
+    margin: 20px;
+}
+
+.com {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: MAGIC;
+    font-size: 10pt;   
+}
+
+#comment {
+ width: 500px;   
+}
+
+#click {
+    width: 150px;
+    height: 37px;
+    background-color: black;
+    color: white;
+}
+
+.address {
+    
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    font-family: MAGIC;
+    font-size: 10pt;
+    font-style: normal;
+    color: white;
+    text-align: end;
+}
